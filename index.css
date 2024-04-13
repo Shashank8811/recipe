@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f2f1f1;
+  height: 100vh;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 28px;
+  width: 600px;
+}
+h1 {
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+.primary-heading {
+  color: #ec008c;
+}
+.pri-color {
+  color: #fc6767;
+}
+h3 {
+  color: #00467f;
+}
+input {
+  padding: 8px 10px;
+  border: 1px solid #cbc8c8;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgb(250, 242, 242);
+}
+
+.btn-search {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 600;
+  cursor: pointer;
+  background-color: rgb(73, 203, 73);
+}
+.btn-search:hover {
+  background-color: #08df4f;
+}
+
+.recipe-content {
+  display: none;
+  align-items: flex-start;
+  padding: 24px;
+  flex-direction: column;
+  gap: 10px;
+  width: 95%;
+
+  height: 90vh;
+  border: 1px solid rgb(194, 193, 193);
+  border-radius: 10px;
+}
+
+.recipe-title,
+.recipe-ingredients,
+.recipe-servings,
+.recipe-instructions {
+  color: #20002c;
+}
+
+.recipe-ingredients,
+.recipe-servings,
+.recipe-instructions {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+}
