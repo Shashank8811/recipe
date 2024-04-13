@@ -90,3 +90,11 @@ input {
   font-size: 15px;
   font-weight: 500;
 }
+
+@media (max-width: 300px) {
+  .recipe-content {
+    width: 100%;
+    padding: 24px;
+    font-size: 13px;
+  }
+}
